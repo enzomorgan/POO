@@ -15,10 +15,7 @@ public class DemoElevador {
         elevador.sai();
         elevador.sai();
 
-        System.out.println("Andar atual: " + elevador.getAndarAtual());
-        System.out.println("Total de andares: " + elevador.getTotalAndares());
-        System.out.println("Capacidade: " + elevador.getCapacidade());
-        System.out.println("Pessoas: " + elevador.getPessoas());
+        System.out.println(elevador);
 
     }
 }
