@@ -13,7 +13,7 @@ public class Nota {
         this.T = T;
     }
 
-    double MP, EF, MF;
+    double MP, EF;
 
     double media(){
         return MP = (2.5*P1 + 2.5*P2 + 2*T)/7;
