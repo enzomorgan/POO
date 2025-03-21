@@ -1,0 +1,4 @@
+Explique por que não podemoster construtores declarados com a palavra-chave abstract.
+
+RESPOSTA-> Porque construtores não podem ser abstratos, já que não podem ser herdados ou sobrescritos, pois são chamados apenas na instanciação da classe.
+
