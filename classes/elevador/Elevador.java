@@ -34,22 +34,7 @@ public class Elevador {
         if (andarAtual > 0) {
             andarAtual--;
         }
-    }
-
-    public int getAndarAtual() {
-        return andarAtual;
-    }
-
-    public int getTotalAndares() {
-        return totalAndares;
-    }
-
-    public int getCapacidade() {
-        return capacidade;
-    }
-
-    public int getPessoas() {
-        return pessoas;
+        System.out.println("o elevador ja esta no terreo");
     }
 
     public String toString() {
