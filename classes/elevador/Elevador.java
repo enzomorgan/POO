@@ -31,7 +31,7 @@ public class Elevador {
     }
 
     public void desce() {
-        if (andarAtual > 0) {
+        if (andarAtual >= 0) {
             andarAtual--;
         }
         System.out.println("o elevador ja esta no terreo");
