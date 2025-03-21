@@ -11,10 +11,7 @@ public class Time{
         this.cor_unif = cor_unif;
     }
 
-    void mostraTime(){
-        System.out.println("Nome: " + nome);
-        System.out.println("Numero de jogadores: " + num_jog);
-        System.out.println("Tecnico: " + tecnico);
-        System.out.println("Cor do uniforme: " + cor_unif);
-    }
+  public String toString(){
+      return "Nome: " + nome + "/tNumero de jogadores: " + "/tTecnico: " + tecnico + "/tCor do uniforme: " + cor_unif;
+  }
 }
