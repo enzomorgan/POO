@@ -12,6 +12,6 @@ public class Time{
     }
 
   public String toString(){
-      return "Nome: " + nome + "/tNumero de jogadores: " + "/tTecnico: " + tecnico + "/tCor do uniforme: " + cor_unif;
+      return "Nome: " + nome + "/nNumero de jogadores: " + "/nTecnico: " + tecnico + "/nCor do uniforme: " + cor_unif;
   }
 }
